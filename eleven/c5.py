@@ -25,3 +25,5 @@ print(result1)
 
 for v in VIP:
     print(v)
+
+# 枚举不能做大小比较，可以做相等比较
