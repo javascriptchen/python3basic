@@ -10,7 +10,7 @@ class VIP(Enum):
 
 class Common():
     YELLOW = 1
-
+# 无法使用单例模式
 # result = VIP.GREEN > VIP.BLACK
 result1 = VIP.GREEN is VIP.GREEN
 print(result1)
