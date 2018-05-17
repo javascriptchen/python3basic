@@ -4,7 +4,7 @@ origin = 0
 # 函数式编程
 def factory(pos):
     def go(step):
-        nonlocal pos
+        nonlocal pos #不是局部变量
         new_pos = pos + step
         pos = new_pos
         return new_pos
